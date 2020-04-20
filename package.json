@@ -1,7 +1,7 @@
 {
   "name": "css-theme-management",
   "version": "0.0.1",
-  "description": "This package is for managing the theme of your react app.",
+  "description": "This package was created to ease the process of implementing multiple themes in an app.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
