@@ -3,7 +3,7 @@ import { ThemeManagement } from './theme_management';
 import { themeLoader } from '../theme_loader/theme_loader';
 
 
-class ThemeManager implements ThemeManagement.IThemeManager {
+export class ThemeManager implements ThemeManagement.IThemeManager {
     private _themes: Theming.Themes;
     private _themeStorageKeyword: string;
 
