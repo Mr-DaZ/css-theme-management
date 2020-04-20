@@ -69,3 +69,11 @@ import { ThemeManager } from 'css-theme-management';
 const themeManager = new ThemeManager(Themes, THEME_STORAGE_KEYWORD);
 themeManager.loadTheme('Light')
 ```
+
+```css
+/*Your css*/
+.your-class{
+    color: var(--font-color);
+    background: var(--background-color);
+}
+```
