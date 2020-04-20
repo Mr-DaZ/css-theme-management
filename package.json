@@ -2,9 +2,12 @@
   "name": "css-theme-management",
   "version": "0.0.1",
   "description": "This package is for managing the theme of your react app.",
-  "main": "index.js",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "lint": "tslint -p tsconfig.json"
   },
   "repository": {
     "type": "git",
@@ -16,12 +19,16 @@
     "theme",
     "themes",
     "theme-manager",
-    "management"
+    "theme-management"
   ],
   "author": "Dan Zaslavsky",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Mr-DaZ/css-theme-management/issues"
   },
-  "homepage": "https://github.com/Mr-DaZ/css-theme-management#readme"
+  "homepage": "https://github.com/Mr-DaZ/css-theme-management#readme",
+  "devDependencies": {
+    "tslint": "^6.1.1",
+    "typescript": "^3.8.3"
+  }
 }
