@@ -1,6 +1,6 @@
 import Theming from '../types/index';
 import { ThemeManagement } from './theme_management';
-import { themeLoader } from '../theme_loader/theme_loader';
+import { themeLoader } from './theme_loader/theme_loader';
 
 
 export class ThemeManager implements ThemeManagement.IThemeManager {

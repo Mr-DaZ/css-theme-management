@@ -1,5 +1,5 @@
 import ThemeManagement from '../theme_management';
-import Theme from '../types/theme';
+import Theme from '../../types/theme';
 import loadProperty from './property_loader';
 
 export const themeLoader: ThemeManagement.IThemeLoader = (theme: Theme) => {
