@@ -7,18 +7,13 @@
       "esnext"
     ],
     "outDir": "build",
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
+    "declaration": true,
     "experimentalDecorators": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "noEmit": true,
-    "jsx": "preserve",
     "downlevelIteration": true
   },
   "include": [
