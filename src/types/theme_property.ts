@@ -1,6 +1,6 @@
 type ThemeProperty = {
-    properyName: string;
-    properyValue: string;
+    propertyName: string;
+    propertyValue: string;
 }
 
 export default ThemeProperty;
