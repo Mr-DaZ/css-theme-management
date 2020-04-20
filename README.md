@@ -1,5 +1,7 @@
 # css-theme-management
 
+This package is intended to ease the implementation of multiple themes in your app.
+
 ## How to use
 
 1. Create an interface which extends the **Theming.Theme** interface
