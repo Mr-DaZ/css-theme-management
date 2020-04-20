@@ -1,5 +1,7 @@
 # css-theme-management
 
+This package is intended to ease the implementation of multiple themes in your app.
+
 ## How to use
 
 1. Create an interface which extends the **Theming.Theme** interface
@@ -7,7 +9,8 @@
 3. Create an extansion to the **Theming.Themes** interface, add your theme names here.
 4. Create implementations of the interfaces.
 5. Provide the themes object to the **ThemeManager** in the ctor.
-6. To load a theme provide the theme name to the loadTheme method of the **ThemeManager**.
+6. Choose a storage key for the local storage, pass it to the **ThemeManager** in the ctor.
+7. To load a theme provide the theme name to the loadTheme method of the **ThemeManager**.
 
 ### Example 
 ```ts
