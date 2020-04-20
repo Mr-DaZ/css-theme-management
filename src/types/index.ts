@@ -1,11 +1,11 @@
-import theme from './theme';
-import themeProperty from './theme_property';
-import themes from './themes';
+import ITheme from './theme';
+import IThemeProperty from './theme_property';
+import IThemes from './themes';
 
 export namespace Theming {
-    export type Theme = theme;
-    export type ThemeProperty = themeProperty;
-    export type Themes = themes;
+    export type Theme = ITheme;
+    export type ThemeProperty = IThemeProperty;
+    export type Themes = IThemes;
 }
 
 export default Theming;

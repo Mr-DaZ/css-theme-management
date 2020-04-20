@@ -1,5 +1,6 @@
 # Node
 package-lock.json
+build/
 
 # Logs
 logs
