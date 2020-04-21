@@ -5,8 +5,8 @@ This package is intended to ease the implementation of multiple themes in your a
 ## How to use
 
 1. Create an interface which extends the **Theming.Theme** interface
-2. Add the properties, **Theming.ThemeProperty** have a a value a css property and a name, the name is used in your css to load the value via the ```var()``` function.
-3. Create an extansion to the **Theming.Themes** interface, add your theme names here.
+2. Add the properties, **Theming.ThemeProperty** have a css property value and a name, the name is used in your css to load the value via the ```var()``` function.
+3. Create an extension to the **Theming.Themes** interface, add your theme names here.
 4. Create implementations of the interfaces.
 5. Provide the themes object to the **ThemeManager** in the ctor.
 6. Choose a storage key for the local storage, pass it to the **ThemeManager** in the ctor.
